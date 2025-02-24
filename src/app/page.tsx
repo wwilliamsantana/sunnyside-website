@@ -10,6 +10,10 @@ import imagePhotography from "../assets/image-photography.jpg"
 import imageJennie from "../assets/image-jennie.jpg"
 import imageThomas from "../assets/image-thomas.jpg"
 import imageEmily from "../assets/image-emily.jpg"
+import imageGalleryOne from "../assets/image-gallery-milkbottles.jpg"
+import imageGalleryTwo from "../assets/image-gallery-orange.jpg"
+import imageGalleryThree from "../assets/image-gallery-cone.jpg"
+import imageGalleryFor from "../assets/image-gallery-sugarcubes.jpg"
 
 
 
@@ -133,7 +137,13 @@ export default function Home() {
         </article>
 
       </main>
-      <footer className="mt-32"></footer>
+      <figure className="grid grid-cols-4 mt-28 h-80  ">
+        <Image className="w-full h-full object-cover" src={imageGalleryOne} alt="" />
+        <Image className="w-full h-full object-cover" src={imageGalleryTwo} alt="" />
+        <Image className="w-full h-full object-cover" src={imageGalleryThree} alt="" />
+        <Image className="w-full h-full object-cover" src={imageGalleryFor} alt="" />
+      </figure>
+
     </>
   );
 }
