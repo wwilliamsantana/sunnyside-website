@@ -5,7 +5,7 @@ import "./globals.css";
 const barlowFont = Barlow({
   variable: "--font-barlow",
   subsets: ["latin"],
-  weight: ["600"]
+  weight: ["600", "700"]
 });
 
 const frauncesFont = Fraunces({
