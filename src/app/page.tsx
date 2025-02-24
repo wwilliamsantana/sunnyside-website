@@ -68,11 +68,19 @@ export default function Home() {
           <div className="h-full relative w-full bg-[#9cdcce] ">
             <Image src={imageGraphic} alt="" fill className="object-contain" />
 
-
+            <div className="absolute text-center bottom-12 font-[family-name:--font-fraunces] text-teal-900 ">
+              <h2 className="text-2xl">Graphic Design</h2>
+              <p className="px-44 mt-3 text-sm">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+            </div>
 
           </div>
           <div className="h-full relative w-full bg-[#62c7ff] ">
             <Image src={imagePhotography} alt="" fill className="object-contain" />
+
+            <div className="absolute text-center bottom-12 font-[family-name:--font-fraunces] text-sky-900 ">
+              <h2 className="text-2xl">Photography</h2>
+              <p className="px-44 mt-3 text-sm">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
           </div>
         </section>
 
