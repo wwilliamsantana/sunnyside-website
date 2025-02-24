@@ -51,7 +51,7 @@ export default function Home() {
         </section>
 
         <section className="grid grid-cols-2 h-[450px]">
-          <div className="h-full relative w-full bg-[#ff8071] ">
+          <div className="h-full relative w-full bg-[#ff7062] ">
             <Image src={imageStandOut} alt="" fill className="object-contain" />
           </div>
           <div className="flex justify-center items-start flex-col mx-24 gap-6">
@@ -64,7 +64,17 @@ export default function Home() {
 
         </section>
 
+        <section className="grid grid-cols-2 h-[450px]">
+          <div className="h-full relative w-full bg-[#9cdcce] ">
+            <Image src={imageGraphic} alt="" fill className="object-contain" />
 
+
+
+          </div>
+          <div className="h-full relative w-full bg-[#62c7ff] ">
+            <Image src={imagePhotography} alt="" fill className="object-contain" />
+          </div>
+        </section>
 
       </main>
       <footer className="mt-32"></footer>
