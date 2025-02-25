@@ -13,9 +13,9 @@ export function Footer() {
 
       <nav className="mt-6">
         <ul className="flex gap-8 items-center text-sm text-teal-800 ">
-          <li className="hover:text-white transition-colors">About</li>
-          <li className="hover:text-white transition-colors">Services</li>
-          <li className="hover:text-white transition-colors">Projects</li>
+          <Link href="/about" className="hover:text-white transition-colors">About</Link>
+          <Link href="/services" className="hover:text-white transition-colors">Services</Link>
+          <Link href="/projects" className="hover:text-white transition-colors">Projects</Link>
         </ul>
       </nav>
       <nav className="mt-12 group-icons">

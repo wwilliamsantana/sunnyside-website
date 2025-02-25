@@ -26,7 +26,7 @@ export function Navigation() {
           </li>
 
           <li>
-            <Link href="">Projects</Link>
+            <Link href="/projects">Projects</Link>
           </li>
 
           <li className="uppercase px-3 py-1 text-sm bg-white rounded-full text-black hover:bg-white/50 hover:text-white transition-colors">
@@ -54,7 +54,7 @@ export function Navigation() {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >
-              <Link href="">
+              <Link href="/projects">
                 Projects
               </Link>
             </DropdownMenuItem>
