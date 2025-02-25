@@ -1,6 +1,8 @@
 import Image from "next/image"
 import Link from "next/link";
 
+
+
 import logo from "../assets/logo.svg"
 import arrowDown from "../assets/icon-arrow-down.svg"
 import imageTransform from "../assets/image-transform.jpg"
@@ -19,9 +21,7 @@ import iconFacebook from "../assets/icon-facebook.svg"
 import iconPinterest from "../assets/icon-pinterest.svg"
 import iconTwitter from "../assets/icon-twitter.svg"
 
-
-
-
+import { Navigation } from "@/components/navigation";
 
 export default function Home() {
   return (
@@ -29,30 +29,17 @@ export default function Home() {
       <header className="bg-[url(../assets/image-header.jpg)] bg-cover bg-center  h-[620px]">
         <div className="p-8 flex justify-between content-center ">
           <Image src={logo} width={124} height={124} alt="Logotipo" />
-          <nav >
-            <ul className="flex gap-8 content-center list-none font-[family-name:--font-barlow] items-center text-white">
-              <li>
-                <a href="">About</a>
-              </li>
-              <li>
-                <a href="">Services</a>
-              </li>
 
-              <li>
-                <a href="">Projects</a>
-              </li>
+          <Navigation />
 
-              <li className="uppercase px-3 py-1 text-sm bg-white rounded-full text-black hover:bg-white/50 hover:text-white transition-colors">
-                <a href="">Contact</a>
-              </li>
-            </ul>
-          </nav>
         </div>
         <div className="flex flex-col items-center mt-10">
           <h1 className="font-[family-name:--font-fraunces] text-5xl uppercase tracking-widest text-white">we are creatives</h1>
           <Image src={arrowDown} width={36} height={114} alt="Seta para baixo" className="mt-20" />
         </div>
       </header>
+
+
       <main>
         <section className="grid grid-cols-2 h-[450px]">
           <div className="flex justify-center items-start flex-col mx-24 gap-6">
@@ -140,14 +127,16 @@ export default function Home() {
 
           </div>
         </article>
-
       </main>
-      <figure className="grid grid-cols-4 mt-28 h-80  ">
+
+
+
+      <div className="grid grid-cols-4 mt-28 h-80  ">
         <Image className="w-full h-full object-cover" src={imageGalleryOne} alt="" />
         <Image className="w-full h-full object-cover" src={imageGalleryTwo} alt="" />
         <Image className="w-full h-full object-cover" src={imageGalleryThree} alt="" />
         <Image className="w-full h-full object-cover" src={imageGalleryFor} alt="" />
-      </figure>
+      </div>
 
       <footer className="h-72 bg-teal-600/50 flex items-center justify-center flex-col font-[family-name:--font-barlow]">
         <strong className="font-[family-name:--font-barlow] text-3xl text-teal-900">sunnyside</strong>
