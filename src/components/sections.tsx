@@ -8,7 +8,7 @@ import imagePhotography from "../assets/image-photography.jpg"
 export function Sections() {
   return <>
     <section className="grid grid-cols-2 h-[29rem] max-md:grid-cols-1 ">
-      <div className="flex justify-center items-start flex-col mx-16 gap-6 max-md:order-2 ">
+      <div className="flex justify-center items-start flex-col mx-16 gap-6 max-md:order-2 max-md:justify-normal ">
         <h2 className="font-[family-name:--font-fraunces] text-4xl max-md:text-xl ">Transform your brand</h2>
         <p className="text-sm text-gray-500 font-[family-name:--font-barlow]" >We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the markenting for you.</p>
         <Link href={"#"} className="font-[family-name:--font-fraunces] uppercase text-xs underline decoration-yellow-400 ">learn more</Link>
@@ -22,7 +22,7 @@ export function Sections() {
       <div className="h-full relative w-full bg-[#ff7062] max-md:h-52 ">
         <Image src={imageStandOut} alt="" fill className="object-contain" />
       </div>
-      <div className="flex justify-center items-start flex-col mx-16 gap-6">
+      <div className="flex justify-center items-start flex-col mx-16 gap-6 max-md:justify-normal">
         <h2 className="font-[family-name:--font-fraunces] text-4xl max-md:text-xl">Stand out to the right audience</h2>
         <p className="text-sm text-gray-500 font-[family-name:--font-barlow]" >
           {"Using a collaborative formula of designers, researchers, photographers, veiographers, and copywriters, we'll build and extend yout brand in digital places."}
@@ -51,8 +51,6 @@ export function Sections() {
         </div>
       </div>
     </section>
-
-
 
   </>
 }

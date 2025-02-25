@@ -10,6 +10,7 @@ import {
 import Image from "next/image"
 
 import iconHamburguer from "../assets/icon-hamburger.svg"
+import Link from "next/link"
 
 
 export function Navigation() {
@@ -18,18 +19,18 @@ export function Navigation() {
       <nav className="max-md:hidden">
         <ul className="flex gap-8 content-center list-none font-[family-name:--font-barlow] items-center text-white">
           <li>
-            <a href="">About</a>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <a href="">Services</a>
+            <Link href="">Services</Link>
           </li>
 
           <li>
-            <a href="">Projects</a>
+            <Link href="">Projects</Link>
           </li>
 
           <li className="uppercase px-3 py-1 text-sm bg-white rounded-full text-black hover:bg-white/50 hover:text-white transition-colors">
-            <a href="">Contact</a>
+            <Link href="">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -42,10 +43,26 @@ export function Navigation() {
           <DropdownMenuContent>
             <DropdownMenuLabel>Navigation</DropdownMenuLabel>
             <DropdownMenuSeparator />
-            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white">About</DropdownMenuItem>
-            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >Services</DropdownMenuItem>
-            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >Projects</DropdownMenuItem>
-            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >Contact</DropdownMenuItem>
+            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white">
+              <Link href="/about">
+                About
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >
+              <Link href="">
+                Services
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >
+              <Link href="">
+                Projects
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >
+              <Link href="">
+                Contact
+              </Link>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </nav>
