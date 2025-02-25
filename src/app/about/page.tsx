@@ -8,7 +8,7 @@ export default function About() {
         <title>About Us | Digital Marketing Agency</title>
         <meta name="description" content="Learn more about our digital marketing agency and how we help businesses grow online." />
       </Head>
-      <section className="flex flex-col items-center gap-10 min-h-screen bg-[#ff7062]/60 text-white p-10">
+      <section className="flex flex-col items-center gap-10 min-h-screen bg-white text-gray-800 p-10">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
           <h2 className="text-5xl font-extrabold mb-6 font-[family-name:--font-fraunces] ">Who We Are</h2>
           <p className="text-lg leading-relaxed mb-4 font-[family-name:--font-barlow]">

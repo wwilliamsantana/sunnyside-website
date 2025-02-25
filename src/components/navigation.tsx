@@ -22,7 +22,7 @@ export function Navigation() {
             <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="">Services</Link>
+            <Link href="/services">Services</Link>
           </li>
 
           <li>
@@ -49,7 +49,7 @@ export function Navigation() {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem className="hover:bg-sky-500 hover:text-white" >
-              <Link href="">
+              <Link href="/services">
                 Services
               </Link>
             </DropdownMenuItem>
