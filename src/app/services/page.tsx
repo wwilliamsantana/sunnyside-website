@@ -1,8 +1,14 @@
 import Image from "next/image";
 
+interface ServicesProps {
+  title: string
+  description: string
+  imageUrl: string
+}
+
 
 export default function Services() {
-  const services = [
+  const services: ServicesProps[] = [
     {
       title: "Social Media Management",
       description: "Boost your brand's presence with strategies focused on engagement and reach on social media.",
