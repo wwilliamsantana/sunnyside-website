@@ -8,7 +8,7 @@
 > Concluí o projeto com tudo o que foi solicitado, incluindo a responsividade (mobile) requisitada. Decidi desenvolver o website por completo, criando também as páginas Sobre, Serviços e Projetos. Utilizei Next.js e Tailwind para a implementação, além de algumas bibliotecas que facilitaram a criação do layout e otimizaram o processo.
 
 
-## Tecnologia usadas com suas versões
+### Tecnologia usadas com suas versões
 
 - Nextjs - 15.1.7
 - Reactjs - 19.0.0
@@ -18,7 +18,7 @@
 - Eslint -  9.0
 - Radix-UI - Dropdown-menu - 2.1.6
 
-## Execução do projeto
+### Execução do projeto
 
 **Requer o NODE (npm) e o GIT instalado!**
 ~~~javascript
