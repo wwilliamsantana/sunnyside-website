@@ -5,7 +5,7 @@
 
 > Este é projeto do Front-end-Mentor, onde eles disponibilizar o design e images para que você crie o projeto. [LINK DO CHALLENGE](https://www.frontendmentor.io/challenges/agency-landing-page-7yVs3B6ef)
 
-> Além do que foi solicitado, optei por desenvolver o website por completo, criando também as páginas SOBRE, SERVIÇOS e PROJETOS. Utilizeii Next.js e Tailwind para a implementação do projeto, juntamente com algumas bibliotecas que facilitaram a criação do layout e otimizaram o processo.
+> Concluí o projeto com tudo o que foi solicitado, incluindo a responsividade (mobile) requisitada. Decidi desenvolver o website por completo, criando também as páginas Sobre, Serviços e Projetos. Utilizei Next.js e Tailwind para a implementação, além de algumas bibliotecas que facilitaram a criação do layout e otimizaram o processo.
 
 
 ## Tecnologia usadas com suas versões
